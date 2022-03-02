@@ -6,10 +6,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
+           
             Console.WriteLine("vvedite A");
             int a = Convert.ToInt32(Console.ReadLine());
             
+            Console.WriteLine("vvedite B");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("cho sdelat: *, /, +, -");
+            char c = Convert.ToChar(Console.ReadLine());
 
         }
     }
