@@ -10,6 +10,7 @@ namespace ConsoleApp1
             Console.WriteLine("vvedite A");
             int a = Convert.ToInt32(Console.ReadLine());
             
+
         }
     }
 }
