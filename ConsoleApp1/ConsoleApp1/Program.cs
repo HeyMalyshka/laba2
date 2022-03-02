@@ -14,7 +14,10 @@ namespace ConsoleApp1
             int b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("cho sdelat: *, /, +, -");
             char c = Convert.ToChar(Console.ReadLine());
-
+            
+            int s;
+            if (c == '+') s = a + b;
+            
         }
     }
 }
