@@ -17,6 +17,7 @@ namespace ConsoleApp1
             int s;
             if (c == '+') s = a + b;
             else if (c == '-') s = a - b;
+            else if (c == '*') s = a * b;
         }
     }
 }
