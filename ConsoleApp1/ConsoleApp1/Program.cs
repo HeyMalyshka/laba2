@@ -6,7 +6,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
             Console.WriteLine("vvedite A");
             int a = Convert.ToInt32(Console.ReadLine());
             
@@ -19,10 +18,7 @@ namespace ConsoleApp1
             if (c == '+') s = a + b;
             else if (c == '-') s = a - b;
             else if (c == '*') s = a * b;
-=======
-            
             else if (c == '/') s = a / b;
->>>>>>> del
         }
     }
 }
