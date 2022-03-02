@@ -6,7 +6,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           
+            else if (c == '-') s = a - b;
+         
+
+
         }
     }
 }
