@@ -7,7 +7,6 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
             Console.WriteLine("vvedite A");
             int a = Convert.ToInt32(Console.ReadLine());
             
@@ -17,6 +16,7 @@ namespace ConsoleApp1
             char c = Convert.ToChar(Console.ReadLine());
             
             int s=0;
+            //int s;
             if (c == '+') s = a + b;
             else if (c == '-') s = a - b;
             else if (c == '*') s = a * b;
